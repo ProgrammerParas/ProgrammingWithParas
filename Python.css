@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	outline: none;
+	overflow-x: hidden!important;
+	user-select: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar{
+	z-index: 9999;
+	overflow: hidden;
+	top: 0;
+	position: absolute;
+}
+
+.b-d{
+	margin-left: 1rem;
+}
+
+.btn-dark{
+	font-family: 'Raleway', sans-serif;
+	box-shadow:none !important;
+    outline:0px !important;
+	cursor: pointer!important;
+	border-radius: 5rem!important;
+}
+
+.res{
+	margin: auto!important;
+	display: block;
+	width: 600px;
+	height: 400px;
+	margin-top: 3rem!important;
+}
+
+.btn-d-n{
+	float: right!important;
+	margin-right: 1rem;
+}
+.btn-primary:hover{
+    background: #0d6efd!important;
+    border-color: #0d6efd!important;
+}
+
+
+.nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 3px;
+}
+
+.nav-link:hover{
+    color: royalblue!important;
+}
+
+.logo{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(3, 128, 252);
+    font-style: italic;
+    margin: 0px;
+    width: 161px;
+
+}
+
+.video-em{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+
+}
+.cards{
+	margin-top: 8rem;
+}
+
+.cards2{
+	margin-top: 2.5rem;
+}
+
+.card{
+	border-radius: 2em!important;
+    border: 2px solid royalblue!important;
+}
+
+.btn-primary{
+	padding: 10px;
+    border-radius: 5rem!important;
+    font-family: 'Poppins', sans-serif;
+    box-shadow:none !important;
+    outline:0px !important;
+    cursor: pointer!important;
+}
+
+.cards3{
+	margin-top: 2.5rem;
+}
+.cards4{
+	margin-top: 2.5rem;
+}
+
+.cards7{
+	margin-top: 2.5rem;
+}
+.cards8{
+	margin-top: 2.5rem;
+}
+
+
+.footer {
+   left: 0;
+   height: 5rem;
+   bottom: 0;
+   margin-top: 4rem;
+   width: 100%;
+   font-family: 'Raleway', sans-serif;
+   background-color: rgb(20, 33, 33);
+   color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   align-self: center;
+   align-content: center;
+
+}
+
+.far{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.f-p{
+    padding-top: 2rem;
+    letter-spacing: 1.3px;
+
+}
+
+.navbar-toggler:focus{
+	box-shadow: none!important;
+	color: rgba(255,255,255,.55);
+
+}
+
+.navbar-dark .navbar-toggler {
+    border: 3px solid;
+    border-radius: 50rem;
+    width: 45px;
+    padding-right: 0px;
+	padding-left: 1px;
+	color: rgba(255,255,255,.55)!important;
+}
+
+
+
+
+
+@media screen and (max-width: 598px){
+
+	body{
+		overflow-x: hidden!important;
+	}
+
+	.navbar-toggler:focus{
+		box-shadow: none!important;
+		color: rgba(255,255,255,.55);
+	
+	}
+	
+	.navbar-dark .navbar-toggler {
+		border: 3px solid;
+		border-radius: 50rem;
+		width: 45px;
+		padding-right: 0px;
+		padding-left: 1px;
+		color: rgba(255,255,255,.55)!important;
+	}
+
+	
+
+	.navbar{
+		width: 100%!important;
+		overflow-x: hidden;
+	}
+
+	.res{
+		width: 345px!important;
+		height: 200px!important;
+		margin: auto!important;
+		margin-top: 3rem!important;
+		overflow-x: hidden;
+	}
+	.video-em{
+		width: 345px!important;
+		height: 200px!important;
+		margin: auto!important;
+		
+	}
+
+	.cards{
+		flex-direction: column;
+		overflow-x: hidden;
+	}
+
+	.card{
+		margin-bottom: 2rem!important;
+    	width: 20rem;
+    	margin: 1rem auto!important;
+	}
+
+	.cards2{
+		margin-top: 0.5rem;
+		overflow-x: hidden;
+	}
+	.cards3{
+		margin-top: 0.5rem;
+		overflow-x: hidden;
+	}
+	.cards4{
+		margin-top: 0.5rem;
+		overflow-x: hidden;
+	}
+	.cards5{
+		margin-top: 90rem!important;
+		overflow-x: hidden;
+	}
+	.cards6{
+		margin-top: 0.5rem;
+		overflow-x: hidden;
+	}
+	.cards7{
+		margin-top: 0.5rem;
+		overflow-x: hidden;
+	}
+	.cards8{
+		margin-top: 0.5rem;
+		overflow-x: hidden;
+	}
+
+	.footer{
+        height: 6.3rem;
+    }
+
+    .f-p{
+        font-size: 14px;
+	}
+	
+	.btn-dark{
+		margin-top: 2rem!important;
+		box-shadow:none !important;
+    	outline:0px !important;
+    	cursor: pointer!important;
+	}
+}
+
