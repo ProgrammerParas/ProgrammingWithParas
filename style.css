@@ -12,6 +12,9 @@ body{
     user-select: none;
     overflow-x: hidden;
     outline: none;
+}
+
+html{
     scroll-behavior: smooth;
 }
 
