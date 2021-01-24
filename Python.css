@@ -84,6 +84,10 @@ body{
 	margin-top: 8rem;
 }
 
+.card-title{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 .cards2{
 	margin-top: 2.5rem;
 }
