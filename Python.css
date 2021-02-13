@@ -31,11 +31,22 @@ body{
 }
 
 .btn-dark{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	box-shadow:none !important;
-    outline:0px !important;
+    	outline:0px !important;
+	background: none!important;
+	color: black!important;
+	font-weight: bolder!important;
 	cursor: pointer!important;
 	border-radius: 5rem!important;
+	border-color: rgb(8, 12, 12)!important;
+	border-width: 3px!important;
+}
+
+.btn-dark:hover{
+	background: rgb(8, 12, 12)!important;
+	color: white!important;
+	transition: all 0.3s ease-in-out;
 }
 
 .res{
@@ -262,6 +273,8 @@ body{
 		box-shadow:none !important;
     	outline:0px !important;
     	cursor: pointer!important;
+		background: rgb(8, 12, 12)!important;
+		color: white!important;
 	}
 }
 
