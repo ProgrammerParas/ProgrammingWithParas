@@ -33,6 +33,7 @@ body{
 .btn-dark{
 	font-family: 'Poppins', sans-serif;
 	box-shadow:none !important;
+	font-size: 1.2em!important;
     	outline:0px !important;
 	background: none!important;
 	color: black!important;
@@ -271,6 +272,7 @@ body{
 	.btn-dark{
 		margin-top: 2rem!important;
 		box-shadow:none !important;
+		font-size: 1em!important;
     	outline:0px !important;
     	cursor: pointer!important;
 		background: rgb(8, 12, 12)!important;
