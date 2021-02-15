@@ -22,6 +22,7 @@
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link active" href="https://www.youtube.com/channel/UCO3ZK0BfPSMKS91iGMe2BLQ">Channel</a>
         <a class="nav-link active" href="https://www.youtube.com/channel/UCO3ZK0BfPSMKS91iGMe2BLQ" name="video">Videos</a>
+	<i class="far fa-moon" style="color: white; position: absolute; right: 0; margin-right: 1%; font-size: 1.3em; cursor: pointer; justify-content: center; justify-self: center; align-items: center; align-self: center;" onclick="darkmo()" id="moon"></i>
       </div>
     </div>
   </div>
@@ -74,5 +75,32 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 	<script src="https://kit.fontawesome.com/1d1786f180.js" crossorigin="anonymous"></script>
+	
+	<script>
+    function darkmo() {
+   var x = document.getElementById("body");
+   var a = document.getElementById("card1");
+   var b = document.getElementById("card2");
+   var footer = document.getElementById("footer")
+   if(x.style.background === "none"){
+     x.style.background = "#212529";
+     x.style.color = "white";
+     a.style.color = "white";
+     a.style.background = "#212529"
+     b.style.color = "white";
+     b.style.background = "#212529"
+     footer.style.color = "white";
+   }else{
+     x.style.background = "none";
+     x.style.color = "black";
+     a.style.background = "white";
+     a.style.color = "black";
+     b.style.background = "white";
+     b.style.color = "black";
+     footer.style.color = "gray";
+   }
+
+}
+  </script>
 </body>
 </html>
