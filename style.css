@@ -12,19 +12,13 @@ body{
     user-select: none;
     overflow-x: hidden;
     outline: none;
-}
-
-html{
     scroll-behavior: smooth;
+    background: none;
+
 }
 
-.fa-moon{
-        position: relative;
-        right: 0;
-        bottom: 0;
-        margin-right: 2%;
-        margin-bottom: 1.5%;
-    }
+
+
 .logo{
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(3, 128, 252);
@@ -64,6 +58,25 @@ html{
     font-size: 40px;
 }
 
+
+.fa-facebook{
+    float: right!important;
+    right: 0!important;
+    position: relative;
+    color: black;
+}
+
+
+.facebook{
+    width: 10px;
+    height: 10px;
+}
+
+.dark-mode{
+    background: #212529;
+}
+
+
 .footer {
    left: 0;
    height: 5rem;
@@ -81,6 +94,10 @@ html{
 
 }
 
+
+.first-sec{
+    background: #0d6efd;
+}
 .first{
     width: 80%;
     margin: 13% 0px;
@@ -99,7 +116,7 @@ html{
     color: white;
     margin: 10px;
     border-radius: 10px;
-    outline:0px !important;
+    outline: none;
     cursor: pointer;
 }
 
@@ -145,9 +162,7 @@ html{
 .cards{
     display: flex;
 }
-.btn:active{
-    
-}
+
 
 .fab{
     margin-right: 4px;
@@ -175,7 +190,6 @@ html{
 
 .navbar-toggler:focus{
     box-shadow: none!important;
-
 }
 
 .navbar-dark .navbar-toggler{
@@ -184,6 +198,13 @@ html{
     width: 45px;
     padding-right: 0px;
     padding-left: 1px;
+    color: rgba(255,255,255,.55);
+}
+
+
+.yt-logo{
+    width: 1rem;
+    height: 1rem;
 }
 
 
@@ -191,6 +212,15 @@ html{
 
     body{
         overflow-x: hidden;
+    }
+
+
+    .fa-moon{
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin-right: 2%;
+        margin-bottom: 1.5%;
     }
 
 
@@ -221,13 +251,13 @@ html{
     .img{
         width: 400px;
         height: 300px;
-
     }
     .heading{
         font-size: 30px;
     }
     .first{
         width: 80%;
+        margin: 13% 0px;
     }
     .about{
         font-size: 13px;
