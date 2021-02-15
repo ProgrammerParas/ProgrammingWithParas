@@ -18,6 +18,13 @@ html{
     scroll-behavior: smooth;
 }
 
+.fa-moon{
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin-right: 2%;
+        margin-bottom: 1.5%;
+    }
 .logo{
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(3, 128, 252);
